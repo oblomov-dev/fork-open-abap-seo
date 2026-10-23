@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>open-abap-seo</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LSEOTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLSEO</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>SEO_INTERFACE_IMPLEM_GET_ALL</FUNCNAME>
+     <SHORT_TEXT>All classes implementing an interface</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>INTKEY</PARAMETER>
+       <TYP>SEOCLSKEY</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>IMPKEYS</PARAMETER>
+       <TYP>SEOR_IMPLEMENTING_KEYS</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NOT_EXISTING</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>IS_CLASS</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>INTKEY</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IMPKEYS</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NOT_EXISTING</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IS_CLASS</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,7 @@
+CLASS cl_seo_implem_test DEFINITION PUBLIC.
+  PUBLIC SECTION.
+ENDCLASS.
+
+CLASS cl_seo_implem_test IMPLEMENTATION.
+
+ENDCLASS.

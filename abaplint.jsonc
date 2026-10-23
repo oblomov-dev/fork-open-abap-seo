@@ -398,11 +398,7 @@
       "severity": "Error",
       "omitMeInstanceCalls": true
     },
-    "reduce_procedural_code": {
-      "exclude": [],
-      "severity": "Error",
-      "maxStatements": 10
-    },
+    "reduce_procedural_code": false,
     "reduce_string_templates": true,
     "release_idoc": true,
     "remove_descriptions": {
